@@ -1,0 +1,19 @@
+.container {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.textInput {
+  outline: none;
+  border: none;
+  line-height: 9vh;
+  font-size: 1.2rem;
+  color: #bbbbd5;
+}
+
+input::placeholder {
+  font-size: 1.1rem;
+}

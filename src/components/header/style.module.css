@@ -1,0 +1,52 @@
+.headerBox {
+  height: 15vh;
+  display: flex;
+  background-color: #fdfdff;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.headerBox_leftPart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+.currentDate {
+  margin-left: 20px;
+  margin-bottom: 3px;
+  font-size: 1.3rem;
+  color: #7970fb;
+}
+
+.currentMonth {
+  margin-left: 20px;
+  margin-top: 3px;
+  color: #bbbbd5;
+}
+
+.headerBox_rightPart {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.clearListBtn {
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 20px;
+  background-color: #fb6f70;
+  border: 1px solid red;
+}
+
+.clearListTxt {
+  font-size: 0.7rem;
+  margin: 0;
+  color: #fff;
+  font-weight: bold;
+}

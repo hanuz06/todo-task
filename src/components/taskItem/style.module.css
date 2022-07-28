@@ -1,0 +1,32 @@
+.container {
+  height: 80px;
+  display: flex;  
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+}
+
+.containerLeftPart {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  align-items: center;  
+}
+
+.checkbox {
+  accent-color: #fb6f70;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.timestamp {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textLineThrough {
+  text-decoration: line-through;
+}
